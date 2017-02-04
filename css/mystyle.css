@@ -1,0 +1,145 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+.page-header {
+    margin: 40px 0 0px;
+}
+
+.fullborder {
+	border: 1px solid black; !important;
+}
+
+.borderkanan {
+	border-right: 1px solid #999; !important;
+}
+
+.bg-abumuda {
+	background-color: #eee;
+}
+
+.bg-abu {
+	background-color: #999;
+}
+
+/* menu navbar (awal) */
+.bg-navbar {
+	background-color: #2C3E50;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default {
+	border-width: 0px; !important
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #18BC9C;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #18BC9C;
+	color: #fff;
+}
+
+.dropdown-menu {
+	background-color: #2C3E50;
+}
+
+.dropdown-menu>li>a {
+	color: #fff;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #fff;
+	background-color: #18BC9C;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #18BC9C;
+}
+
+.bg-navbar .nav>li>a {
+	color: #EEEEEE;
+}
+/* menu navbar (akhir) */
+
+/* menu bagian tengah (awal) */
+.menu-middle {
+	margin-top : -20px;
+	height:	475px;
+}
+/* menu bagian tengah (akhir) */
+
+/* Untuk menu konten (awal) */
+.main-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 100%;
+}
+
+.menu-right {
+	color: #fff;
+	background-color: #18BC9C;
+	height: 100%;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+hr.star-light, hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-light:after {
+    background-color: #18BC9C;
+    color: #fff;
+}
+hr.star-light:after, hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+.submenu-kanan {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 50%;
+	text-align: center;
+}
+/* Untuk menu konten (akhir) */
+
+/* Untuk menu footer (awal) */
+.text-center {
+	text-align: center;
+}
+
+footer {
+	color: #fff;
+}
+
+footer .footer-below {
+	padding: 25px 0;
+	background-color: #233140;
+}
+
+footer a, a.active, a:active, a:focus, a:hover {
+	color: #18BC9C;
+	outline: 0;
+}
+
+/* Untuk menu footer (akhir) */
